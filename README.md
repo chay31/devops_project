@@ -16,3 +16,15 @@ ansible-playbook -i inventory.ini playbook.yml
 
 
   # lien Github https://github.com/chay31/devops_project
+
+  # build le dockerfile 
+  docker build -t my-devops-project .
+
+  # vérifier qu'il y a bien l'image
+  docker images
+
+  # executer une container
+
+docker run -p 80:80 my-python-app
+
+
