@@ -13,3 +13,6 @@ ansible-playbook -i inventory.ini playbook.yml
 
  # Exécuter avec Ansible 
   ansible-playbook -i inventory.ini deploy-docker.yml
+
+
+  # lien Github https://github.com/chay31/devops_project
